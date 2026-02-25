@@ -1,6 +1,6 @@
 # Data Visualization
 
-Materials to work with the [R course material]([https://www.py4e.com/](https://github.com/ccs-amsterdam/r-course-material)) developed by Computational Communication Science Amsterdam.
+Materials for the Data Visualization course offered by the Department of Communication and Technology, National Yang Ming Chiao Tung University.
 
 Maintainer: Justin Chun-ting Ho
 
