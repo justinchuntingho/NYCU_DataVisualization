@@ -4,6 +4,10 @@ Materials for the Data Visualization course offered by the Department of Communi
 
 Maintainer: Justin Chun-ting Ho
 
+## Etherpad
+
+[https://pad.carpentries.org/nycudata](https://pad.carpentries.org/nycudata)
+
 
 ## Course Schedule
 
