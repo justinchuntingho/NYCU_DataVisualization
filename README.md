@@ -13,4 +13,4 @@ This course is designed to teach basic Python programming, data wrangling, data 
 | Week | Topic | Reading | Core packages / functions |
 |----|---|---|---|
 | 1 | Overview| | Installing [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop) |
-| 2 | How to look at data? | [Healy, ch. 1](https://socviz.co/lookatdata.html#lookatdata) | |
+| 2 | Getting Started with Python | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html) |  |
