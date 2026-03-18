@@ -18,7 +18,9 @@ I have created an online notebook for share codes:
 This course is designed to teach basic Python programming, data wrangling, data visualization, and eventually building an interactive dashboard using Streamlit. Below I have listed the reading materials. Most of the readings are taken from [Computational Analysis of Communication](https://cssbook.net/), an open access book. For additional reference, I recommend following the free Python for Everybody course offered by Dr. Charles R. Severance (available as both [website](https://www.py4e.com/html3/) and [video](https://www.py4e.com/lessons)).
 
 
-| Week | Topic | Reading | Core packages / functions |
+| Week | Topic | Reading | Core packages |
 |----|---|---|---|
 | 1 | Overview| | Installing [JupyterLab Desktop](https://github.com/jupyterlab/jupyterlab-desktop) |
 | 2 | Getting Started with Python | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html) |  |
+| 3 | Control Flows | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html)| |
+| 4 | Working with Files | [van Atteveldt et al., ch.5](https://cssbook.net/content/chapter05.html) | |
