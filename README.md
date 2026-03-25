@@ -24,3 +24,4 @@ This course is designed to teach basic Python programming, data wrangling, data 
 | 2 | Getting Started with Python | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html) |  |
 | 3 | Control Flows | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html)| |
 | 4 | Working with Files | [van Atteveldt et al., ch.5](https://cssbook.net/content/chapter05.html) | |
+| 5 | Pandas | [van Atteveldt et al., ch.6](https://cssbook.net/content/chapter06.html) | pandas |
