@@ -1,5 +1,8 @@
+# Getting Starting: imports
 import streamlit as st
 import pandas as pd
+
+# Streamlit basics
 st.title("Week 10: Getting Started with Streamlit")
 
 st.write("This is a simple app to show you what streamlit can do")
@@ -14,7 +17,7 @@ st.header("This is how you do header")
 
 st.subheader("This is how you do subheader")
 
-
+# Working with data
 st.header("1. Create some data")
 grades = pd.DataFrame({
     "student": ["Amy", "Ben", "Cathy", "David", "Eva", "Frank", "Grace", "Henry", "Ivy", "Jack"],
@@ -24,6 +27,7 @@ grades = pd.DataFrame({
 })
 st.dataframe(grades)
 
+# Data wrangling
 st.header("2. Filter data")
 
 minimum_score = 70
@@ -33,7 +37,8 @@ filtered_students = grades[grades["quiz_score"] >= minimum_score]
 st.write("Students who passed")
 st.dataframe(filtered_students)
 
-st.header("3. Other input methods")
+# Widgets
+st.header("3. Widgets")
 name = st.text_input("Student Name")
 st.write("Hello", name)
 
@@ -48,6 +53,7 @@ if understood:
 else:
     st.write("Boo!!!")
 
+# Data Visualisation
 st.header("4. Working with Real Data")
 pop = pd.read_csv("pop.csv")
 pop = pop[pop['性別'] == '男女合計']
@@ -72,7 +78,7 @@ st.scatter_chart(
     # size="人口數"
 )
 
-
+# Interactive Data Visualization, aka Dashboard
 st.header("5. Make it interactive!")
 
 region = st.selectbox(label = "Choose a region", options = ['東區','北區','香山'])

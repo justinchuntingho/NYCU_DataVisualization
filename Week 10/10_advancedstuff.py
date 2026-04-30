@@ -8,6 +8,7 @@ grades = pd.DataFrame({
     "quiz_score": [62, 71, 78, 66, 85, 91, 55, 88, 80, 95],
 })
 
+# Better Layouts
 st.header("Layout")
 col1, col2 = st.columns(2)
 
@@ -23,8 +24,15 @@ minimum_score = st.sidebar.slider("Passing score", 0, 100, 70)
 filtered_students = grades[grades["quiz_score"] >= minimum_score]
 st.dataframe(filtered_students)
 
+# More Sidebar
+st.sidebar.header("Reading Corner")
+st.sidebar.write("""
+“There is nothing like looking, if you want to find something. You certainly usually find something, if you look, but it is not always quite the something you were after.”
+""")
+st.sidebar.caption("From *The Hobbit* by J.R.R. Tolkien")
 
 
+# Tabs
 tab1, tab2 = st.tabs(["All", "Passed"])
 
 with tab1:
@@ -37,9 +45,4 @@ with tab2:
 if st.button("Celebrate"):
     st.balloons()
 
-st.sidebar.header("Reading Corner")
 
-st.sidebar.write("""
-“There is nothing like looking, if you want to find something. You certainly usually find something, if you look, but it is not always quite the something you were after.”
-""")
-st.sidebar.caption("From *The Hobbit* by J.R.R. Tolkien")
