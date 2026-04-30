@@ -25,3 +25,6 @@ This course is designed to teach basic Python programming, data wrangling, data 
 | 3 | Control Flows | [van Atteveldt et al., ch.3](https://cssbook.net/content/chapter03.html)| |
 | 4 | Working with Files | [van Atteveldt et al., ch.5](https://cssbook.net/content/chapter05.html) | |
 | 5 | Pandas | [van Atteveldt et al., ch.6](https://cssbook.net/content/chapter06.html) | pandas |
+| 7 | More Pandas | [van Atteveldt et al., ch.6](https://cssbook.net/content/chapter06.html) | pandas |
+| 8 | Data Visualization | [van Atteveldt et al., ch.7](https://cssbook.net/content/chapter07.html) | seaborn |
+| 10 | Building Dashboard App with Streamlit | [Streamlit Documentation](https://docs.streamlit.io/) | streamlit |
